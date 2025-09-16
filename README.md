@@ -1,12 +1,62 @@
-# React + Vite
+💰 Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based expense tracker that helps you manage your income, expenses, and balance.
+Users can add transactions with descriptions, view totals, and see transactions categorized as income or expense.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add income and expense transactions
 
-## Expanding the ESLint configuration
+Track total balance, income, and expense
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Transaction list with clear distinction between income & expense
+
+Responsive and minimal UI design
+
+[Optional Enhancement] Delete transactions
+
+[Optional Enhancement] Persistent data using localStorage
+
+🛠️ Tech Stack
+
+React.js (useState for state management)
+
+CSS for styling
+
+JavaScript (ES6+)
+
+📸 Screenshots
+
+(Add your app screenshot here)
+Example:
+
+![Expense Tracker Screenshot](./screenshot.png)
+
+📂 Project Structure
+ExpenseTracker/
+│── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.js
+│── package.json
+│── vite.config.js
+│── README.md
+
+⚡ Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/ExpenseTracker.git
+cd ExpenseTracker
+
+2. Install dependencies
+npm install
+
+3. Run the app
+npm run dev
+
+✅ Future Improvements
+
+Use localStorage to persist data
+
+Add charts (Pie/Bar) for income vs expenses
+
+Add categories for transactions (e.g., Food, Rent, Shopping)
