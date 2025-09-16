@@ -13,9 +13,6 @@ Transaction list with clear distinction between income & expense
 
 Responsive and minimal UI design
 
-[Optional Enhancement] Delete transactions
-
-[Optional Enhancement] Persistent data using localStorage
 
 🛠️ Tech Stack
 
@@ -25,12 +22,6 @@ CSS for styling
 
 JavaScript (ES6+)
 
-📸 Screenshots
-
-(Add your app screenshot here)
-Example:
-
-![Expense Tracker Screenshot](./screenshot.png)
 
 📂 Project Structure
 ExpenseTracker/
